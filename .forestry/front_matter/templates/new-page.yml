@@ -1,4 +1,23 @@
 ---
 label: New page
 hide_body: true
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: The date for the article.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: This is where text goes.
