@@ -1,4 +1,29 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Geeky Monkeys'
 theme = 'mediumish-gohugo-theme'
+
+[params]
+	logo = "images/logo.png"
+	description = "Lots of monkeys"
+
+[params.index]
+	title = "Jim Bones"
+	subtitle = "Lets see what happens"
+	mdtext = '''
+	What is this!?!?!\
+	**Just doing what I'm told. **\
+
+### This is a markdown heading?
+'''
+alertbar=false
+
+
+## Main menu
+[[menu.main]]
+	name = "Blog"
+	weight = 100
+	identifier = "blog"
+	url = "/blog/blog"
+
+
