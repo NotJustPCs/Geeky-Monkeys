@@ -4,7 +4,7 @@ title = 'Geeky Monkeys'
 theme = 'mediumish-gohugo-theme'
 
 [params]
-	logo = "images/logo.png"
+	logo = "images/logo.jpg"
 	description = "Lots of monkeys"
 
 [params.index]
@@ -24,6 +24,5 @@ alertbar=false
 	name = "Blog"
 	weight = 100
 	identifier = "blog"
-	url = "/blog/blog"
-
+	url = "/blog/"
 
