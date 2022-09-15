@@ -1,3 +1,3 @@
-#[submodule "/themes/mediumish-gohugo-theme"] 
-#  path = /themes/mediumish-gohugo-theme 
-#  url = git:/lgaida/mediumish-gohugo-theme
+[submodule "themes/mediumish-gohugo-theme"]
+	path = themes/mediumish-gohugo-theme
+	url = http://github.com/lgaida/mediumish-gohugo-theme
